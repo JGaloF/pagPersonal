@@ -1,0 +1,83 @@
+BODY {
+    background-color : #154360;
+    font-family : arial;
+    color : White;
+}
+
+.contenedor{
+    margin: auto;
+    margin-top: 35px;
+    /*background-color: black;*/
+    width: 1600px;
+    height: 800px;
+}
+
+.contenido{
+
+}
+
+#cabeza{
+    border-radius: 15px 80px 80px 80px;
+    float: right;
+    background-color:#FBEEE6;
+    width: 70%;
+    height: 200px;
+}
+
+#cuerpo{
+    border-radius: 80px 80px 80px 15px;
+    margin-top: 20px;
+    float: right;
+    width: 70%;
+    height: 580px;
+    background-color: #FBEEE6;
+}
+
+#izquierda{
+    border-radius: 80px 80px 15px 80px;
+    float:left;
+    height: 800px;
+    width: 460px;
+    background-color:#FBEEE6;
+}
+
+#imagen{
+    background-image: url(recursos/jgalo.jpeg);
+    background-size: 290px;
+    background-position: 0px -18px;
+    
+    background-color: #154360;
+    width: 140px;
+    height: 140px;
+    border-radius: 50%;
+    border-style: inset;
+    border-color: gray;
+    display: inline-block;
+}
+
+#cabecera{
+    margin-top: 15px;
+    margin-left: 20px;
+    background-color: gray;
+    width: 420px;
+    height: 146px;
+    border-radius: 100px 100px;
+}
+
+#nombre{
+    width: 200px;
+    height: 146px;
+    display: inline-block;
+    position: relative;
+    left: 10px;
+    bottom: 60px;
+}
+
+#titulo{
+    
+}
+
+#subt{
+    margin-top: -10px;
+    font-style: italic;
+}
